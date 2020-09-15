@@ -1,0 +1,40 @@
+.comment {
+    display: flex;
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    min-height: 50px;
+    position: relative;
+}
+
+.comment .comment-user {
+    flex-shrink: 0;
+}
+
+.comment span {
+    color: #00a3cf;
+    font-style: italic;
+}
+
+.comment p {
+    margin: 0;
+    text-indent: 2em;
+}
+
+.comment-createtime {
+    scroll-padding-right: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.comment-delete {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: transparent;
+    font-size: 12px;
+    cursor: pointer;
+}

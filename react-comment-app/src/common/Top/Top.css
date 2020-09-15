@@ -1,0 +1,32 @@
+#scrollUp {
+    display: none;
+    position: fixed;
+    width: 46px;
+    height: 46px;
+    /*确保不被其他功能覆盖*/
+    z-index: 99999;
+    background-color: lightblue;
+    color: #eee;
+    font-size: 40px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    opacity: .8;
+    border-radius: 50%;
+}
+
+#scrollUp:hover {
+    background-color: #5cb85c;
+    /* 鼠标移上去时，反转颜色 */
+    color: #fff;
+}
+
+
+/* @media (max-height: 800px) {
+    .top {
+        display: none!important;
+    }
+} */
